@@ -17,6 +17,8 @@ public class JpaUtils {
 
     static  {
         //1.加载配置文件，创建entityManagerFactory
+        //测试提交第一次
+        int i = 0;
         factory = Persistence.createEntityManagerFactory("myJpa");
     }
 
