@@ -19,6 +19,7 @@ public class JpaUtils {
         //1.加载配置文件，创建entityManagerFactory
         //测试提交第一次
         int i = 1+1;
+        // TODO: 2019/3/18 今天任务到这里结束 
         factory = Persistence.createEntityManagerFactory("myJpa");
     }
 
